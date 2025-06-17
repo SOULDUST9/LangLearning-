@@ -1,3 +1,6 @@
+# python_basics.py - A simple class-based task manager that allows adding, deleting, 
+# and listing tasks for a user.
+
 class TaskManager:
 	def __init__(self, name):
 		self.name = name 
