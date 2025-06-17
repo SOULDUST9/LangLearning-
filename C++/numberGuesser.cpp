@@ -1,3 +1,5 @@
+// numberGuesser.cpp - gets the user to play a game where they must guess the number.
+
 #include <iostream>
 
 int main() {

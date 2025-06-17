@@ -1,3 +1,5 @@
+// test.cpp - small test to print a random # and display a output accourding to what you get
+
 #include <iostream>
 #include <cstdlib>
 

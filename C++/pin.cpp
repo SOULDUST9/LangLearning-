@@ -1,3 +1,5 @@
+// pin.cpp - a basic pin maker + guesser.
+
 #include <iostream>
 
 int main(){
