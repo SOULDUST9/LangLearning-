@@ -1,4 +1,4 @@
-// simpleBank.cpp - 
+// simpleBank.cpp - a simple bank that allows you to buy and see money (this is basic will be improved later)
 
 #include <iostream>
 
