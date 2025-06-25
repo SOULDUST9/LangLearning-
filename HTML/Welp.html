@@ -1,0 +1,29 @@
+<!-- 
+  Welp Review Form
+  This HTML form allows users to submit a basic review, including their name, 
+  what they are reviewing, whether they'd try it again (via radio buttons), 
+  a 1–5 star rating, and optional additional comments.
+-->
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Welp</title>
+  </head>
+  <body>
+    <form>
+      <label>Name: <input type="text"></label><br><br>
+      <label>What are you reviewing: <input type="text"></label><br><br>
+      
+      <label>Would you try again? </label><br>
+      <label><input type="radio"> Yes</label><br>
+      <label><input type="radio"> Maybe</label><br>
+      <label><input type="radio"> No</label><br><br>
+
+      <label>How would you rate the product? <input type="number" min="1" max="5"> Stars</label><br><br>
+
+      <textarea id="data" rows="7" cols="42" placeholder="Any addititonal comments?"></textarea><br><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
