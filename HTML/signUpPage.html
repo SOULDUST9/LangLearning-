@@ -1,3 +1,9 @@
+<!-- 
+  Simple Sign Up Page
+  This HTML file creates a basic sign-up form that collects user details, 
+  including username, email, password (with length constraints), age (18+), 
+  and gender selection via radio buttons.
+-->
 <!DOCTYPE html>
 
 <html>
@@ -12,6 +18,12 @@
         Email: <input type="email" required><br><br>
         Password: <input type="password" minlength="4" maxlength="12" required><br><br>
         Confirm Password: <input type="password" minlength="4" maxlength="12" required><br><br>
+        Age: <input type="number" min="18"><br><br>
+        Gender: <br>
+        <input type="radio" name="option"> Male<br>
+        <input type="radio" name="option"> Female<br>
+        <input type="radio" name="option"> Other<br><br>
+
         <input type="submit">
       </p> 
     </form>
