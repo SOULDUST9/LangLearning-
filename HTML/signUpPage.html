@@ -13,19 +13,17 @@
   <body>
     <h1>Sign Up</h1>
     <form>
-      <p>
-        Username: <input type="text" required><br><br>
-        Email: <input type="email" required><br><br>
-        Password: <input type="password" minlength="4" maxlength="12" required><br><br>
-        Confirm Password: <input type="password" minlength="4" maxlength="12" required><br><br>
-        Age: <input type="number" min="18"><br><br>
-        Gender: <br>
-        <input type="radio" name="option"> Male<br>
-        <input type="radio" name="option"> Female<br>
-        <input type="radio" name="option"> Other<br><br>
+        <label for="Username">Username: </label><input type="text" id="Username" required><br><br>
+        <label for="Email">Email: </label><input type="email" id="Email" required><br><br>
+        <label for="Password">Password: </label><input type="password" minlength="4" maxlength="12" id="Password" required><br><br>
+        <label for="ConPassword">Confirm Password: </label><input type="password" minlength="4" maxlength="12" id="ConPassword"required><br><br>
+        <label for="Age">Age: </label><input type="number" min="18" id="Age"><br><br>
+        <label for="Age">Gender: </label><br>
+        <input type="radio" name="option" id="Male"> <label for="Male">Male </label><br>
+        <input type="radio" name="option" id="Female"> <label for="Female">Female</label><br>
+        <input type="radio" name="option" id="Other"> <label for="Other">Other</label><br><br>
         <textarea id="data-entry" rows="7" cols="42" placeholder="Any addition info?"></textarea><br>
         <input type="submit">
-      </p> 
     </form>
   </body>
 </html>
