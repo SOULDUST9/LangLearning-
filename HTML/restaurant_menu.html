@@ -1,0 +1,84 @@
+<!--
+restaurant_menu.html - this is the final project for HTML and it will combine all the skills ive acumalated thus far
+also 
+-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Restaurant</title>
+    </head>
+    <body>
+        <header>
+            <figure>
+                <img 
+                width = "500"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/250px-Brooklyn_Bridge_Manhattan.jpg"
+                alt="our food plate">
+            </figure>
+            <h1>My Restaurant</h1>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order Form</a></li>
+            </ul>
+        </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article>
+                    <img
+                    width="250"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/250px-Brooklyn_Bridge_Manhattan.jpg"
+                    alt="The Classic Cheeseburger">
+                    <h3>Classic Cheeseburger</h3>
+                    <p>The Classic Cheeseburger is a juicy beef patty topped with melted cheddar, lettuce, tomato, and house sauce, served on a toasted bun. Only $8.99 for a satisfying bite!</p><br><br>
+                </article>
+                <article>
+                    <img
+                    width="250"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/250px-Brooklyn_Bridge_Manhattan.jpg"
+                    alt="The Cheese Pizza">
+                    <h3>Cheese Pizza</h3>
+                    <p>Our Cheese Pizza features a crispy golden crust topped with rich tomato sauce and a generous layer of melted mozzarella. Perfectly simple and delicious for just $10.99!</p><br><br>
+                </article>
+                <article>
+                    <img
+                    width="250"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Brooklyn_Bridge_Manhattan.jpg/250px-Brooklyn_Bridge_Manhattan.jpg"
+                    alt="The Deli Sandwich">
+                    <h3>Deli Sandwich</h3>
+                    <p>The Deli Sandwich is stacked with fresh turkey, crisp lettuce, tomato, and mayo on your choice of bread. A fresh and hearty option for only $7.49!</p><br><br>
+                </article>
+            </section>
+            <section id="order-form">
+                <h2>Place your Order</h2>
+                <form>
+                    <div>
+                        <label>Classic Cheeseburger <input type="number" min="0" required></label><br>
+                        <label>Cheese Pizza <input type="number" min="0" required></label><br>
+                        <label>Deli Sandwich <input type="number" min="0" required></label><br><br>
+                    </div>
+                    <div>
+                        <label>ADD-ONS (this will go on all items for simpleness)</label><br>
+                        <label><input type="radio" name="Adds"> Extra Cheese – $1.00</label><br>
+                        <label><input type="radio" name="Adds"> Bacon Strips – $1.50</label><br>
+                        <label><input type="radio" name="Adds"> Avocado Slices – $1.25</label><br><br>
+                    </div>
+                    <div>
+                        <label>SIDES (this will go with all items for simpleness)</label><br>
+                        <label><input type="radio" name="Sides"> French Fries – $3.49</label><br>
+                        <label><input type="radio" name="Sides"> Onion Rings – $3.99</label><br>
+                        <label><input type="radio" name="Sides"> Side Salad – $2.99</label><br><br>
+                    </div>
+                    <label>Special Requests:</label><br>
+                    <textarea id="data" rows="7" cols="42" placeholder="Any additional conditions or special requests"></textarea><br>
+                    <input type="submit" value="Go To Checkout"><br>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by SOULDUST</p>
+        </footer>
+    </body>
+</html>
