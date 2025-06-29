@@ -1,0 +1,30 @@
+#first-color{
+    color: rgb(255,0,0);
+}
+#second-color{
+    color: orange;
+}
+#third-color{
+    color: blue;
+}
+  
+.colors{
+    border: 3px solid;
+    width: 15%;
+    color: black;
+    background: white;
+}
+
+body > h2, h1{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(skyblue, white) no-repeat;
+    min-height: 100vh;
+}
