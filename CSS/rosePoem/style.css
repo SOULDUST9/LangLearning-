@@ -1,0 +1,25 @@
+div{
+    border: 1px solid;
+    text-align: center;
+    font-size: 20px;
+}
+  
+.line{
+    width: 50%;
+    margin: auto; 
+    padding: 20px 0;
+    text-decoration: underline;
+}
+  
+#roses{
+    background-color: red;
+}
+  
+#violets{
+    background-color: blue;
+}
+  
+  
+#sugar{
+    background-color: beige;
+}
