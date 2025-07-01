@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Sign Up Page</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Sign Up</h1>
+    <form>
+        <label for="Username">Username: </label><input class="input" type="text" id="Username" placeholder="Username" required><br><br>
+        <label for="Email">Email: </label><input class="input" type="email" id="Email" placeholder="Email" required><br><br>
+        <label for="Password">Password: </label><input class="input" type="password" placeholder="Password" minlength="4" maxlength="12" id="Password" required><br><br>
+        <label for="ConPassword">Confirm Password: </label><input class="input" placeholder="Password" type="password" minlength="4" maxlength="12" id="ConPassword"required><br><br>
+        <label for="Age">Age: </label><input class="input" placeholder="Age" type="number" min="18" id="Age"><br><br>
+        <label for="Age"><u>Gender: </u></label><br>
+        <input class="input" type="radio" name="option" id="Male"> <label for="Male">Male </label><br>
+        <input class="input" type="radio" name="option" id="Female"> <label for="Female">Female</label><br>
+        <input class="input" type="radio" name="option" id="Other"> <label for="Other">Other</label><br><br>
+        <textarea class="input" id="data-entry" rows="7" cols="42" placeholder="Any addition info?"></textarea><br><br>
+        <input class="input" id="submit" type="submit">
+    </form>
+  </body>
+</html>

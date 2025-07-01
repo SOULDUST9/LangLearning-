@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif, Arial;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .input{
+    border-radius: 12px;
+  }
+   
+  body > h1 {
+    text-decoration: underline solid;
+    margin: 10px;
+  }
+  
+  body {
+    background: linear-gradient(#F87060,#102542) no-repeat;
+    height: 100vh;
+  }
+  
+  #submit {
+    width: 50px;
+    font-size: 11px;
+    background: white;
+  }
+  
+  
