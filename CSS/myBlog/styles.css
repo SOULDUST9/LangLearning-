@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 20px;
+    background-color: #005F99;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+header > nav {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+}
+#AboutLink, #StoriesLink, #ContactLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+
+header > h1 {
+    margin: 0;
+}
+body {
+    margin: 110px 0;
+    background-color: #D0E8FF;
+    background: linear-gradient(white, #64a7e6);
+    font-family: sans-serif;
+    scroll-padding-top: 120px;
+}
+
+#title {
+    text-align: center;
+    text-decoration: underline solid 3px;
+    margin: 50px;
+}
+main > section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    height: auto;
+    height: fit-content;
+    scroll-margin-top: 120px;
+}
