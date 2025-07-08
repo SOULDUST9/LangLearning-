@@ -1,0 +1,26 @@
+#container {
+    width: 33%;
+    height: 60vh;
+    background-color: rgb(41, 37, 37);
+    position: relative;
+    margin: 100px auto;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+#display {
+    width: 90%;
+    height: 75px;
+    background-color: rgb(66, 65, 65);
+    position: relative;
+    margin: 25px auto;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+
+.row {
+    width: 90%;
+    height: 50px;
+    position: relative;
+    margin: 10px auto;
+}
