@@ -1,0 +1,32 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #likes {
+    display: inline-block;
+    border: 1px black solid;
+    border-radius: 5px;
+  }
+  
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 350px;
+    border: 4px black solid;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    background: linear-gradient(rgb(254, 166, 254), rgb(101, 101, 252));
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(white,rgb(233, 209, 209), rgb(157, 115, 115));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
